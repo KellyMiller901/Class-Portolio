@@ -1,0 +1,126 @@
+html{
+    font-family: sans-serif;
+}
+ul{
+    width:100%;
+}
+#folio-nav {
+  background-color: black;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  margin:0;
+  width: 100%;
+  height: auto;
+}
+#folio-nav * {
+    display:inline;
+    vertical-align:middle;
+}
+
+.contact-me {
+    padding-left:25%;
+    padding-right:25%;
+}
+
+.wht-txt {
+    color:white; 
+}
+
+#folio-nav a:hover {
+    cursor:pointer;
+    color:gainsboro;
+}
+
+#folio-nav span {
+    font-size:24px;
+    font-weight: 700;
+    margin: 3px;
+}
+
+.left-content {
+    margin-left:7% !important;
+}
+
+#social-contacts div {
+    display: inline;
+}
+
+.con-box {
+    border: solid 1px cyan;
+    padding:10px;
+    font-size:10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.cyn-txt {
+    color:cyan;
+}
+
+.menu {
+    font-size:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.thumbnail{
+    width:5%;
+    border-radius:40%;
+}
+
+   
+
+.container1{
+
+  margin-top:10%;
+  height:30%;
+  padding-left:5%;
+  padding-right:5%;
+}
+.abt-me{
+    border: 1px solid black;
+    padding:15px;
+    text-align:center;
+    border-radius:10px;
+}
+.con-img{
+    display:inline-block;
+}
+.side-info{
+    display:inline-block;
+    margin-left:15%;
+    margin-right:15%;
+    position:relative;
+    bottom:20vh;
+}
+.name{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom:0;
+}
+.city{
+    font-size:24px;
+}
+.container2 {
+    padding-left:5%;
+    padding-right:5%;
+    background-color:black;
+}
+.container2 div{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.polaroid{
+    width:24%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:inline-block;
+}
+.polaroid img {
+    width:100%;
+}
+.polar-text {
+    text-align:center;
+}
+.sepia {-webkit-filter: sepia(100%);filter: sepia(100%);}
+.blur {-webkit-filter: blur(15px);filter: blur(px);}
